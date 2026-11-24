@@ -1,0 +1,18 @@
+name = "long-heart-426d"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "dist"
+
+[assets]
+directory = "./dist"
+
+[vars]
+NOTIFICATION_EMAIL = "jordancamiloparra@gmail.com"
+COMMERCIAL_WHATSAPP = "573138546529"
+
+# Las claves sensibles (SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY, RESEND_API_KEY)
+# deben configurarse en local mediante .dev.vars y en producción en el panel de Cloudflare Pages:
+# Settings -> Environment Variables -> Production / Preview
+# O por CLI:
+# npx wrangler pages secret put SUPABASE_URL --project-name=car-audio-bogota
+# npx wrangler pages secret put SUPABASE_ANON_KEY --project-name=car-audio-bogota
+# npx wrangler pages secret put RESEND_API_KEY --project-name=car-audio-bogota

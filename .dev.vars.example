@@ -1,0 +1,9 @@
+# Copia este archivo como `.dev.vars` para desarrollo local con Wrangler Pages
+# Comando: cp .dev.vars.example .dev.vars
+
+SUPABASE_URL="https://tu-proyecto-id.supabase.co"
+SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+SUPABASE_SERVICE_ROLE_KEY=""
+RESEND_API_KEY="re_123456789_tu_api_key_de_resend"
+NOTIFICATION_EMAIL="jordancamiloparra@gmail.com"
+COMMERCIAL_WHATSAPP="573100000000"
